@@ -36,4 +36,5 @@ function unique(arr) {
   });
 }
 
+// One liner
 var unique = (a) => a.filter((v, i, a) => a.indexOf(v) === i);
